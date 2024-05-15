@@ -11,6 +11,13 @@ nav {
 
 }
 
+.azul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .verde {
     display: none;
 }
@@ -92,6 +99,7 @@ footer {
 .mainmenu ul li {
     display: inline-flex;
 }
+
 
 .centrar {
     text-align: center;
