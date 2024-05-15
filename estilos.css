@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+nav {
+    background-color: white;
+
+}
+
+.verde {
+    display: none;
+}
+
+.burguer {
+    width: 50px;
+    height: 50px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.main article {
+    background: white;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    column-gap: 20px;
+}
+
+.main article img {
+    max-width: 30%;
+}
+
+.mainmenu {
+    background-color: white;
+    color: black;
+    height: 50px;
+}
+
+
+.ponencias {
+    background-color: #AFC1D0;
+    margin-bottom: 10px;
+}
+
+.ponencias h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+footer {
+    background-color: white;
+    height: 80px;
+}
+
+
+.azul {
+    background-color: #1C3F60;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.azul a {
+    color: white;
+}
+
+
+.mainmenu ul li a:link,
+.mainmenu ul li a:visited {
+    color: #CBDDEC;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.mainmenu a:hover {
+    background-color: #1C3F60;
+    color: white;
+}
+
+.mainmenu ul {
+    list-style: none;
+    padding: 0%;
+
+}
+
+.mainmenu ul li {
+    display: inline-flex;
+}
+
+.centrar {
+    text-align: center;
+    color: white;
+}
+
+.fondo {
+    background-color: #1C3F60;
+}
+
+.centrar a {
+    color: white;
+}
+
+footer {
+    color: black;
+    padding: 5px;
+}
+
+footer img {
+    width: 50px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+/* Extra small devices (portrait phones, less than 576px)
+No requiere para dispositivos pequeños
+*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 992px) {
+    .burguer {
+        display: none;
+    }
+
+    .verde {
+        display: flex;
+    }
+
+    .main {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        column-gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    article {
+        width: 48%;
+    }
+
+    .azul {
+        margin: 0 auto;
+        display: flex;
+        column-gap: 20px;
+        padding-bottom: 50px;
+        align-content: flex-end;
+    }
+
+    .azul img {
+        width: 30%;
+    }
+
+    .centrar img {
+        width: 40%;
+    }
+
+    footer img {
+        width: 50px !important;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
